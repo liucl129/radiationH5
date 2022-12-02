@@ -1,0 +1,18 @@
+{
+    "id": "dengrq-datetime-picker",
+    "name": "日期时间选择器组件",
+    "version": "1.0.3",
+    "description": "适用于 uni-app 的日期时间选择器组件，兼容 H5、小程序。",
+    "keywords": [
+        "日期选择器",
+        "时间选择器",
+        "日期时间选择器",
+        "日期范围选择"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}

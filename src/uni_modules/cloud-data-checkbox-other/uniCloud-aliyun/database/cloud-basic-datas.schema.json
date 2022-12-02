@@ -1,0 +1,63 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": "'admin' in auth.role"
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"text": {
+			"bsonType": "string",
+			"title": "显示文本",
+			"description": "请输入显示文本"
+		},
+		"is_other": {
+			"bsonType": "bool",
+			"title": "是否其他",
+			"description": "是否其他"
+		},
+		"sort": {
+			"bsonType": "int",
+			"title": "排序",
+			"description": "请输入排序号码，正序"
+		},
+		"memo": {
+			"bsonType": "string",
+			"title": "备注",
+			"description": "请输入备注"
+		},
+		"created": {
+			"bsonType": "timestamp",
+			"description": "上传时间",
+			"forceDefaultValue": {
+				"$env": "now"
+			}
+		},
+		"modified": {
+			"bsonType": "timestamp",
+			"description": "修改时间",
+			"forceDefaultValue": {
+				"$env": "now"
+			}
+		},
+		"operater": {
+			"bsonType": "string",
+			"title": "操作员",
+			"description": "操作员",
+			"enum": {
+				"collection": "uni-id-users",
+				"field": "_id as value, nickname as text"
+			},
+			"foreignKey": "uni-id-users._id",
+			"forceDefaultValue": {
+				"$env": "uid"
+			}
+		}
+	}
+}

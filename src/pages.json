@@ -1,0 +1,154 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "辐射卫士",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/sourceManagement/index",
+			"style": {
+				"navigationBarTitleText": "放射源管理",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/sourceManagement/details",
+			"style": {
+				"navigationBarTitleText": "放射源基本信息",
+				"navigationStyle": "custom"
+			}
+		},{
+			"path": "pages/index/equipment",
+			"style": {
+				"navigationBarTitleText": "设备信息",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/earlyWarning/index",
+			"style": {
+				"navigationBarTitleText": "预警自查",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/earlyWarning/feedback",
+			"style": {
+				"navigationBarTitleText": "自查填写",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/rectification/record",
+			"style": {
+				"navigationBarTitleText": "整改记录",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/rectification/feedback",
+			"style": {
+				"navigationBarTitleText": "整改管理",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/inspection/index",
+			"style": {
+				"navigationBarTitleText": "巡检记录",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/inspection/backups",
+			"style": {
+				"navigationBarTitleText": "巡检记录备份",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/inspection/details",
+			"style": {
+				"navigationBarTitleText": "巡检详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/task/index",
+			"style": {
+				"navigationBarTitleText": "作业管理",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/task/startJob",
+			"style": {
+				"navigationBarTitleText": "开始作业",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/task/endJob",
+			"style": {
+				"navigationBarTitleText": "结束作业",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/library/index",
+			"style": {
+				"navigationBarTitleText": "出入库管理",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/library/details",
+			"style": {
+				"navigationBarTitleText": "出入库详情",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/library/register",
+			"style": {
+				"navigationBarTitleText": "出库登记",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/library/registerIn",
+			"style": {
+				"navigationBarTitleText": "入库登记",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/keepOnRecord/index",
+			"style": {
+				"navigationBarTitleText": "备案列表",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/keepOnRecord/details",
+			"style": {
+				"navigationBarTitleText": "备案信息",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/keepOnRecord/addReporting",
+			"style": {
+				"navigationBarTitleText": "添加报备",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/index/map",
+			"style": {
+				"navigationBarTitleText": "地图",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "辐射卫士",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}

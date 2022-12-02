@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title></title>
+		<!--preload-links-->
+		<!--app-context-->
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+				document.documentElement.style.fontSize = document.documentElement.clientWidth / 20 + 'px'
+			})
+		</script>
+	</head>
+	<body>
+
+		<noscript>
+			<strong>Please enable JavaScript to continue.</strong>
+		</noscript>
+
+		<!--引入高德地图JSAPI -->
+		<script src="//webapi.amap.com/maps?v=1.4.13&key=0563aa9f48e7478a5ce4ec38823668b1"></script>
+		<!--引入UI组件库（1.0版本） -->
+		<script src="//webapi.amap.com/ui/1.0/main.js"></script>
+		<div id="app">
+			<!--app-html-->
+		</div>
+		<script type="module" src="/main.js"></script>
+	</body>
+</html>

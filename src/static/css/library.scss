@@ -1,0 +1,91 @@
+.library{
+	padding-bottom: 200rpx;
+	.library-head{
+		height: 72rpx;
+		.library-head-text{
+			font-size: 28rpx;
+			font-family: PingFangSC-Medium, PingFang SC;
+			font-weight: 600;
+			color: #2C2C2C;
+		}
+	}
+	.library-list{
+		// margin-top: 32rpx;
+			.library-list-model{
+				// width: 646rpx;
+				background: #FFFFFF;
+				box-shadow: 0px 4rpx 8rpx 4rpx rgba(71, 95, 180, 0.03);
+				border-radius: 16rpx;
+				padding: 20rpx 20rpx 0 20rpx  ;
+				margin-bottom: 32rpx;
+				ul{
+					display: flex;
+					margin-bottom: 24rpx;
+					li{
+							font-size: 26rpx;
+						&:nth-child(1){
+							width: 128rpx;
+							color: $uni-base-color;
+							font-weight: 600;
+							text-align: right;
+							white-space: nowrap;
+						}
+						&:nth-child(2){
+							color: $uni-secondary-color;
+							font-weight: 500;
+							margin-left: 16rpx;
+						}
+					}
+				}
+				.out-time{
+					ul{
+						width: 400rpx;
+						display: flex;
+						margin-bottom: 24rpx;
+						li{
+								font-size: 26rpx;
+							&:nth-child(1){
+								width: 128rpx;
+								color: $uni-base-color;
+								font-weight: 600;
+								text-align: right;
+								white-space: nowrap;
+							}
+							&:nth-child(2){
+								color: $uni-secondary-color;
+								font-weight: 500;
+								margin-left: 16rpx;
+							}
+						}
+					}
+				}
+				.library-foot{
+					height: 74rpx;
+					border-top: 1px solid rgba(227, 227, 227, 0.7);
+					.library-foot-text{
+						font-size: 24rpx;
+						font-weight: 600;
+						color: $uni-primary;
+					}
+					image {
+						width: 26rpx;
+						height: 52rpx;
+					}
+				}
+			}
+	}
+	.ok-btn {
+		width: 686rpx;
+		height: 84rpx;
+		background: #2e6ff0;
+		border-radius: 42rpx;
+		margin: 0 auto;
+		margin-top: 112rpx;
+		font-size: 32rpx;
+		font-weight: 500;
+		color: $uni-white;
+		position: fixed;
+		bottom: 36rpx;
+		z-index: 10;
+	  }
+}

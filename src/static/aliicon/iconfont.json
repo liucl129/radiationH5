@@ -1,0 +1,65 @@
+{
+  "id": "3407175",
+  "name": "辐射",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "29765982",
+      "name": "箭头",
+      "font_class": "jiantou",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "29765983",
+      "name": "预警自查",
+      "font_class": "yujingzicha",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "29765984",
+      "name": "作业登记",
+      "font_class": "zuoyedengji",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "29765985",
+      "name": "备案管理",
+      "font_class": "beianguanli",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "29765986",
+      "name": "整改管理",
+      "font_class": "zhenggaiguanli",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "29765987",
+      "name": "公司",
+      "font_class": "gongsi",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "29765988",
+      "name": "巡查管理",
+      "font_class": "xunchaguanli",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "29765989",
+      "name": "出入库",
+      "font_class": "churuku",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    }
+  ]
+}

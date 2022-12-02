@@ -1,0 +1,39 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"health": {
+			"bsonType": "string",
+			"title": "身体状况",
+			"component": {
+				"name": "cloud-data-checkbox-other",
+				"props": {
+					":otherValue": "formData.health_other",
+					"collection": "cloud-basic-datas",
+					"field": "_id as value, text,is_other,memo,sort",
+					"orderby": "sort asc"
+				}
+			},
+			"enum": {
+				"collection": "cloud-basic-datas",
+				"field": "_id as value, text,is_other"
+			},
+			"foreignKey": "cloud-basic-datas._id"
+		},
+		"health_other": {
+			"bsonType": "string",
+			"title": "其他身体状况",
+			"description": "请输入其他身体状况"
+		}
+	}
+}
